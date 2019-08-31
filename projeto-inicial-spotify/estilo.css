@@ -4,7 +4,18 @@
 
 
 /* ============== Layout ============== */
+html, body, .capa {
+    height: 100%;
+}
 
+body {
+
+    
+    background: url('imagens/capa.png'),
+                url('imagens/ruido.png'),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+}
 
 
 /* -- barra de navegação -- */
@@ -41,4 +52,10 @@ nav.navbar-transparente {
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #9bf0e1;
 }
+/* -- Imagem de capa -- */
+
+.capa {
+    border: 1px solid red;
+}
+
 /* ============== Tipografia ============== */
